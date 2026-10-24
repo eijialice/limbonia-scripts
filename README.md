@@ -43,7 +43,7 @@ Full API reference and examples: **https://eijialice.gitbook.io/limbonia-scripts
 
 ## Utilities
 
-Standalone scripts that improve quality of life or expose information, without being tied to a specific identity or mechanic.
+Standalone scripts that improve quality of life or expose information, debugging, etc.
 
 *No scripts yet.*
 
@@ -59,6 +59,6 @@ Scripts built around one identity or a specific team, adding mechanics tied to t
 
 ## Mirror Dungeon Recreation
 
-Scripts that recreate or approximate Mirror Dungeon mechanics in regular fights.
+Scripts that recreate or approximate Mirror Dungeon mechanics such as giftsin regular fights.
 
 *No scripts yet.*
