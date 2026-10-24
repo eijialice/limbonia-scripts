@@ -10,10 +10,26 @@ Full documentation, API references and guides live on the GitBook:
 
 ## Table of Contents
 
-- [Libraries](#libraries)
-- [Utilities](#utilities)
 - [Unit Scripts](#unit-scripts)
 - [Mirror Dungeon Recreation](#mirror-dungeon-recreation)
+- [Libraries](#libraries)
+- [Utilities](#utilities)
+
+---
+
+## Unit Scripts
+
+Scripts built around one identity or a specific team, adding mechanics tied to that identity's kit.
+
+*No scripts yet.*
+
+---
+
+## Mirror Dungeon
+
+Scripts that recreate or approximate Mirror Dungeon mechanics such as gifts in regular fights.
+
+*No scripts yet.*
 
 ---
 
@@ -29,7 +45,7 @@ A complete offline database of every skill's coin count for every current identi
 
 - **Coin Counting** — Attack, defense and E.G.O. coin counts for every current identity, plus 43 conditional skills with dynamic based coin counting for the reuse skills behaviours that I could somewhat replicate, and 12 toggleable re-use mechanic skills that could not be replicated within the current API; Currently with user-selectable base or max values.
 - **E.G.O. tier classification** — Risk level name (ZAYIN / TETH / HE / WAW) or tier number (1 / 2 / 3 / 4), with exact, at-least and at-most comparison helpers.
-- **Bulk tier enumeration** —Rreturn every E.G.O. at a tier, at a tier or higher, or at a tier or lower as a sorted array of skill IDs.
+- **Bulk tier enumeration** — Return every E.G.O. at a tier, at a tier or higher, or at a tier or lower as a sorted array of skill IDs.
 - **Corroded E.G.O. detection** — Distinguish base from corroded, and positive-coin corroded from negative-coin corroded, via `isEgoCorroded`, `isCorrodedPositive`, `isCorrodedNegative` and `corrodedPolarity`.
 - **Negative coin skill detection** — There is currently no way to determine if a skill is a negative coin or not, so this lookup in `DB.negative` is the only way to tell a negative coin skill from a positive one at runtime.
 - **Identity name lookup** — `coindb.units[unitId]` Returns the identity name for logging or filtering.
@@ -43,22 +59,6 @@ Full API reference and examples: **https://eijialice.gitbook.io/limbonia-scripts
 
 ## Utilities
 
-Standalone scripts that improve quality of life or expose information, debugging, etc.
-
-*No scripts yet.*
-
----
-
-## Unit Scripts
-
-Scripts built around one identity or a specific team, adding mechanics tied to that identity's kit.
-
-*No scripts yet.*
-
----
-
-## Mirror Dungeon Recreation
-
-Scripts that recreate or approximate Mirror Dungeon mechanics such as giftsin regular fights.
+Standalone scripts that are used to make other scripts.
 
 *No scripts yet.*
