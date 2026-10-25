@@ -34,7 +34,7 @@ Full documentation, API, notes and guides are on the GitBook:
 ---
 
 ## Libraries:
-*Reusable scripts meant to be imported by other scripts. They do not do anything on their own and all they do is supply data or helper functions to your script/s.
+*Reusable scripts meant to be imported by other scripts. They do not do anything on their own and all they do is supply data or helper functions to your script/s.*
 ---
 1. ### Coindb:
 	A complete database of every skill's coin count for every currently released Identity in Limbus Company, with lookup helpers included.
@@ -54,7 +54,7 @@ Full documentation, API, notes and guides are on the GitBook:
 
 ## Utilities:
 *Standalone scripts that are used to make other scripts.*
----
+
 
 1. ### Keyword-logging:
     A logging script that logs every buff / keyword an identity's skills grants or inflict, includes per skill, per coin, once per battle, mainly used for building a database of what each skill and individual coin does.
