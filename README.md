@@ -13,9 +13,9 @@ Full documentation, API, notes and guides are on the GitBook:
 - [Unit Scripts](#unit-scripts)
 - [Mirror Dungeon Recreation](#mirror-dungeon)
 - [Libraries](#libraries)
-	- [coindb](#coindb)
+	- [coindb.lua](#coindb.lua)
 - [Utilities](#utilities)
-	- [keyword-logging](#keyword-logging)
+	- [keyword-logging.lua](#keyword-logging.lua)
 
 ---
 
@@ -36,7 +36,7 @@ Full documentation, API, notes and guides are on the GitBook:
 ## Libraries:
 *Reusable scripts meant to be imported by other scripts. They do not do anything on their own and all they do is supply data or helper functions to your script/s.*
 
-1. ### Coindb:
+1. ### coindb.lua:
 	A complete database of every skill's coin count for every currently released Identity in Limbus Company, with lookup helpers included.
 
   **Features:**
@@ -56,7 +56,7 @@ Full documentation, API, notes and guides are on the GitBook:
 *Standalone scripts that are used to make other scripts.*
 
 
-1. ### Keyword-logging:
+1. ### keyword-logging.lua:
     A logging script that logs every buff / keyword an identity's skills grants or inflict, includes per skill, per coin, once per battle, mainly used for building a database of what each skill and individual coin does.
  
   **Features:**
