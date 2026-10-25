@@ -20,30 +20,26 @@ Full documentation, API, notes and guides are on the GitBook:
 ---
 
 ## Unit Scripts:
-
-*Scripts built around one identity or a specific team tied to that unit.*
+	*Scripts built around one identity or a specific team tied to that unit.*
 
 *No scripts yet.*
 
 ---
 
 ## Mirror Dungeon:
-
-*Scripts that recreate or approximate Mirror Dungeon mechanics such as Gifts in other encounters.*
+	*Scripts that recreate or approximate Mirror Dungeon mechanics such as Gifts in other encounters.*
 
 *No scripts yet.*
 
 ---
 
 ## Libraries:
+	*Reusable scripts meant to be imported by other scripts. They do not do anything on their own and all they do is supply data or helper functions to your script/s.*
 
-	*Reusable scripts meant to be imported by other scripts. They do not do anything on their own and all they do is supply data or helper functions so that scripts built on top do not have to duplicate the work.*
-
-	1. ### Coindb:
-
+1. ### Coindb:
 	A complete database of every skill's coin count for every currently released Identity in Limbus Company, with lookup helpers included.
 
-	**Features:**
+  **Features:**
 
 - **Coin Counting** — Attack, defense and E.G.O. coin counts for every current identity, plus 43 conditional skills with dynamic based coin counting for the reuse skills behaviours that I could somewhat replicate, and 12 toggleable re-use mechanic skills that could not be replicated within the current API; Currently with user-selectable base or max values.
 - **E.G.O. tier classification** — Risk level name (ZAYIN / TETH / HE / WAW) or tier number (1 / 2 / 3 / 4), with exact, at-least and at-most comparison helpers.
@@ -57,15 +53,13 @@ Full documentation, API, notes and guides are on the GitBook:
 ---
 
 ## Utilities:
+	*Standalone scripts that are used to make other scripts.*
 
-*Standalone scripts that are used to make other scripts.*
-
-	1. ### Keyword-logging
-
-	A logging script that logs every buff / keyword an identity's skills grants or inflict, includes per skill, per coin, once per battle, mainly used for building a database of what each skill and individual coin does.
-
-	**Features:**
-
+1. ### Keyword-logging:
+    A logging script that logs every buff / keyword an identity's skills grants or inflict, includes per skill, per coin, once per battle, mainly used for building a database of what each skill and individual coin does.
+ 
+  **Features:**
+  
 - **Distinguishes between Buff / Status Gain or Infliction** — Every result is filed under one of two distinct fields: `gains=` for buffs the unit applied to itself, `infliction=` for buffs it put on its target. No line ever mixes the two, so no result is ambiguous.
 - **Per-coin attribution** — Each line records the coin that *applied* the effect (`coin=0`, `coin=1`, …), and `coin=-1` for On Use effects that fire before the first coin rolls.
 - **Full skill-type coverage** — Attack skills, E.G.O.s, guards, evades and counters all log. Each line carries `cat=` (attack / ego / defence / other), `type=` (skill / ego / guard / evade / counter) and `slot=` (1–3 for attack skills, `-` for non-skills).
