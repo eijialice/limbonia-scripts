@@ -13,33 +13,33 @@ Full documentation, API, notes and guides are on the GitBook:
 - [Unit Scripts](#unit-scripts)
 - [Mirror Dungeon Recreation](#mirror-dungeon)
 - [Libraries](#libraries)
-	- [coindb.lua](#coindb)
+	- [coindb](#coindb)
 - [Utilities](#utilities)
-	- [keyword-logging.lua ](#keyword-logging)
+	- [keyword-logging](#keyword-logging)
 
 ---
 
-## Unit Scripts
+## Unit Scripts:
 
-Scripts built around one identity or a specific team tied to that unit.
+*Scripts built around one identity or a specific team tied to that unit.*
 
 *No scripts yet.*
 
 ---
 
-## Mirror Dungeon
+## Mirror Dungeon:
 
-Scripts that recreate or approximate Mirror Dungeon mechanics such as Gifts in other encounters.
+*Scripts that recreate or approximate Mirror Dungeon mechanics such as Gifts in other encounters.*
 
 *No scripts yet.*
 
 ---
 
-## Libraries
+## Libraries:
 
-Reusable scripts meant to be imported by other scripts. They do not do anything on their own and all they do is supply data or helper functions so that scripts built on top do not have to duplicate the work.
+*Reusable scripts meant to be imported by other scripts. They do not do anything on their own and all they do is supply data or helper functions so that scripts built on top do not have to duplicate the work.*
 
-### Coindb
+1. ### Coindb:
 
 A complete database of every skill's coin count for every currently released Identity in Limbus Company, with lookup helpers included.
 
@@ -56,11 +56,11 @@ A complete database of every skill's coin count for every currently released Ide
 
 ---
 
-## Utilities
+## Utilities:
 
 Standalone scripts that are used to make other scripts.
 
-### Keyword-logging
+1. ### Keyword-logging
 
 A logging script that logs every buff / keyword an identity's skills grants or inflict, includes per skill, per coin, once per battle, mainly used for building a database of what each skill and individual coin does.
 
