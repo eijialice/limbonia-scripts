@@ -35,7 +35,7 @@ Full documentation, API, notes and guides are on the GitBook:
 
 ## Libraries:
 *Reusable scripts meant to be imported by other scripts. They do not do anything on their own and all they do is supply data or helper functions to your script/s.*
----
+
 1. ### Coindb:
 	A complete database of every skill's coin count for every currently released Identity in Limbus Company, with lookup helpers included.
 
