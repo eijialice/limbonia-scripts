@@ -11,11 +11,11 @@ Full documentation, API, notes and guides are on the GitBook:
 ## Table of Contents
 
 - [Unit Scripts](#unit-scripts)
-- [Mirror Dungeon Recreation](#mirror-dungeon-recreation)
+- [Mirror Dungeon Recreation](#mirror-dungeon)
 - [Libraries](#libraries)
-	- [coindb.lua](#coindb.lua)
+	- [coindb.lua](#coindb)
 - [Utilities](#utilities)
-	- [keyword-logging.lua ](#keyword-logging.lua)
+	- [keyword-logging.lua ](#keyword-logging)
 
 ---
 
@@ -39,7 +39,7 @@ Scripts that recreate or approximate Mirror Dungeon mechanics such as Gifts in o
 
 Reusable scripts meant to be imported by other scripts. They do not do anything on their own and all they do is supply data or helper functions so that scripts built on top do not have to duplicate the work.
 
-### coindb.lua
+### Coindb
 
 A complete database of every skill's coin count for every currently released Identity in Limbus Company, with lookup helpers included.
 
@@ -60,7 +60,7 @@ A complete database of every skill's coin count for every currently released Ide
 
 Standalone scripts that are used to make other scripts.
 
-### keyword-logging.lua 
+### Keyword-logging
 
 A logging script that logs every buff / keyword an identity's skills grants or inflict, includes per skill, per coin, once per battle, mainly used for building a database of what each skill and individual coin does.
 
