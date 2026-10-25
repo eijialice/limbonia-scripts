@@ -13,7 +13,9 @@ Full documentation, API, notes and guides are on the GitBook:
 - [Unit Scripts](#unit-scripts)
 - [Mirror Dungeon Recreation](#mirror-dungeon-recreation)
 - [Libraries](#libraries)
+	- [coindb.lua](#1. coindb.lua)
 - [Utilities](#utilities)
+	- [keyword-logging.lua ](#1. keyword-logging.lua )
 
 ---
 
@@ -58,7 +60,7 @@ A complete database of every skill's coin count for every currently released Ide
 
 Standalone scripts that are used to make other scripts.
 
-###1. keyword-logging,lua 
+### 1. keyword-logging.lua 
 
 A logging script that logs every buff / keyword an identity's skills grants or inflict, includes per skill, per coin, once per battle, mainly used for building a database of what each skill and individual coin does.
 
