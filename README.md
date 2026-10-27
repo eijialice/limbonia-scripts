@@ -14,7 +14,7 @@ Full documentation, API, notes and guides are on the GitBook:
 - [Mirror Dungeon](#mirror-dungeon)
 - [Libraries](#libraries)
 	- [coindb.lua](#coindb)
-	- [factiondb.lua](#factiondb)
+	- [faction.tagdb.lua](#factiondb)
 - [Utilities](#utilities)
 	- [keyword-logging.lua](#keyword-logging)
 
@@ -51,7 +51,7 @@ Full documentation, API, notes and guides are on the GitBook:
 - **Category classification** — `coindb.category(u, s)` reports `"skills"`, `"defense"`, `"ego"`, `"negative"`, `"conditional"` or `"toggle"` for any skill.
 - **Direct table enumeration** — Walk every skill a unit has, every identity in the game, or every E.G.O. at a specific tier with plain Lua iteration.
 
-2. ### factiondb:
+2. ### faction.tagdb:
 
 	A database of every identity's faction membership, with lookup helpers. (unit to faction, faction to unit).
 
