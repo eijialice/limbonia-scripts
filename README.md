@@ -50,6 +50,19 @@ Full documentation, API, notes and guides are on the GitBook:
 - **Category classification** — `coindb.category(u, s)` reports `"skills"`, `"defense"`, `"ego"`, `"negative"`, `"conditional"` or `"toggle"` for any skill.
 - **Direct table enumeration** — Walk every skill a unit has, every identity in the game, or every E.G.O. at a specific tier with plain Lua iteration.
 
+2. ### factiondb.lua
+
+	A database of every identity's faction membership, with lookup helpers. (unit to faction, faction to unit).
+
+**Features:**
+
+- **Faction Identifier** — Every identity tagged with every faction it belongs to, keyed by the same unit IDs as `coindb.lua` so both databases can be imported together.
+- **Bidirectional lookup** — Ask "what factions is this unit in?" or "who is in this faction?" with a single call.
+- **Multi-faction tagging** — Units that belong to more than one faction are supported.
+- **Parent and sub-faction support** — The Ring returns all Pointillist, Fauvist and Corporism members. Haute Couture returns both Le Noir and Le Rouge. Hongyuan returns the Lord of Hongyuan Hong Lu plus every Heishou Pack ID.
+- **Shared faction detection** — `sharesFaction(unitA, unitB)` tells you whether two units share at least one faction and names the shared one.
+- **Enumeration helpers** — List every faction in the game, or every unit that belongs to at least one faction.
+
 ---
 
 ## Utilities:
