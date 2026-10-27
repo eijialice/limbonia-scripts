@@ -1,5 +1,7 @@
 # Limbonia Scripts
 
+*Get Limbonia here: https://limbonia.ibello.cc/*
+
 A collection of scripts for Limbonia, made by eiji67.
 
 Full documentation, API, notes and guides are on the GitBook:
