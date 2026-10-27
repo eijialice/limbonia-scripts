@@ -113,6 +113,7 @@ DB.units = {
 
     -- 7. Heathcliff
     [10701] = "LCB Sinner",
+	[10701] = "Shi Assoc. South Section 5 Heathcliff",
     [10703] = "R Corp. 4th Pack Rabbit",
     [10704] = "N Corp. Kleinhammer",
     [10705] = "Lobotomy E.G.O::Sunshower",
