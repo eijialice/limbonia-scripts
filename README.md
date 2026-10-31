@@ -1,6 +1,6 @@
 # Limbonia Scripts
 
-*Get Limbonia here: https://limbonia.ibello.cc/*
+*Made for: https://limbonia.ibello.cc/*
 
 A collection of scripts for Limbonia, made by eiji67.
 
@@ -10,10 +10,10 @@ Full documentation, API, notes and guides are on the GitBook:
 
 ---
 
-## Table of Contents
+## Table of Contents:
 
 - [Unit Scripts](#unit-scripts)
-	- [Thumb Rodion](#thumb-rodion)
+	- [The Thumb Nursefather Rodion](#the-thumb-nursefather-rodion)
 - [Mirror Dungeon](#mirror-dungeon)
 - [Libraries](#libraries)
 	- [egodb.lua](#egodb)
@@ -26,7 +26,7 @@ Full documentation, API, notes and guides are on the GitBook:
 ## Unit Scripts:
 *Scripts built around one identity or a specific team tied to that unit.*
 
-1. ### Thumb Rodion
+1. ### The Thumb Nursefather Rodion
 	- **Added `Mang (望)` behaviour similar to Valencina** — Adds 1 `Mang (望)`  to her `Disposal` and `Sezionatura di Cervo` Skills. Additonally, replicates the behavior of losing 10 SP at the end of the skill and gains +4 Base power when the conditions are met for `Mang (望)` generation. 
 	- **Unit Template** - Contains a template that fully recreates all of Valencina's skill effects, base power, etc and adds them Thumb Rodion's skills, including skill text (*If You want to see the full list of changes, see the gitbook.*). 
 					      
