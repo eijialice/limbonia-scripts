@@ -27,9 +27,9 @@ Full documentation, API, notes and guides are on the GitBook:
 *Scripts built around one identity or a specific team tied to that unit.*
 
 1. ### Thumb Rodion
-	- **Added Mang behaviour similar to Valencina** — Adds 1 Mang to her Disposal and Sezionatura di Cervo Skill, also replicates the behavior of losing 10 SP at the end of the skill and gains +4 Base power when the 	conditions are met for Mang generation. 
-	- **Unit Template** - Contains a template that fully recreates all of Valencina's skill effects, base power, etc to Thumb Rodion's skills, including skill text.
-	
+	- **Added Mang (望) behaviour similar to Valencina** — Adds 1 Mang (望)  to her Disposal and Sezionatura di Cervo Skill, also replicates the behavior of losing 10 SP at the end of the skill and gains +4 Base power when the conditions are met for Mang (望) generation. 
+	- **Unit Template** - Contains a template that fully recreates all of Valencina's skill effects, base power, etc to Thumb Rodion's skills, including skill text (*If You want to see the full changes, see the gitbook.*). 
+					      
 	Preview:
 
 	<img width="800" height="450" alt="preview" src="https://github.com/user-attachments/assets/d5ca9028-72c7-4242-b79f-5ae28b224446" />
