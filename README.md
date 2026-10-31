@@ -32,7 +32,7 @@ Full documentation, API, notes and guides are on the GitBook:
 	
 	Preview:
 
-	<img width="800" height="400" alt="preview" src="https://github.com/user-attachments/assets/d5ca9028-72c7-4242-b79f-5ae28b224446" />
+	<img width="800" height="450" alt="preview" src="https://github.com/user-attachments/assets/d5ca9028-72c7-4242-b79f-5ae28b224446" />
 
 
 	
