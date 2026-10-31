@@ -28,10 +28,11 @@ Full documentation, API, notes and guides are on the GitBook:
 
 1. ### Thumb Rodion
 	- **Added Mang behaviour similar to Valencina** — Adds 1 Mang to her Disposal and Sezionatura di Cervo Skill and Loses 10 SP at the end of the skill and gains +4 Base power when the conditions are met for Mang generation. 
-	- **Template** - Contains a template that fully recreates all of Valencina's skill effects, base power, etc to Thumb Rodion's skills, including skill text.
+	- **Unit Template** - Contains a template that fully recreates all of Valencina's skill effects, base power, etc to Thumb Rodion's skills, including skill text.
 	
 	Preview:
-	![Preview](https://i.imgur.com/LJvKnFm.gif)
+	<img width="800" height="450" alt="2026-10-31 15-01-46" src="https://github.com/user-attachments/assets/3039f022-9a69-4598-80cc-0c96a42eeb62" />
+
 	
 	
 ---
