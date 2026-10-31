@@ -27,8 +27,8 @@ Full documentation, API, notes and guides are on the GitBook:
 *Scripts built around one identity or a specific team tied to that unit.*
 
 1. ### Thumb Rodion
-	- **Added Mang (望) behaviour similar to Valencina** — Adds 1 Mang (望)  to her Disposal and Sezionatura di Cervo Skill, also replicates the behavior of losing 10 SP at the end of the skill and gains +4 Base power when the conditions are met for Mang (望) generation. 
-	- **Unit Template** - Contains a template that fully recreates all of Valencina's skill effects, base power, etc to Thumb Rodion's skills, including skill text (*If You want to see the full changes, see the gitbook.*). 
+	- **Added `Mang (望)` behaviour similar to Valencina** — Adds 1 `Mang (望)`  to her `Disposal` and `Sezionatura di Cervo` Skills. Additonally, replicates the behavior of losing 10 SP at the end of the skill and gains +4 Base power when the conditions are met for `Mang (望)` generation. 
+	- **Unit Template** - Contains a template that fully recreates all of Valencina's skill effects, base power, etc and adds them Thumb Rodion's skills, including skill text (*If You want to see the full list of changes, see the gitbook.*). 
 					      
 	Preview:
 
@@ -66,7 +66,7 @@ Full documentation, API, notes and guides are on the GitBook:
 
 **Features:**
 
-- **Faction Identifier** — Every identity tagged with every faction it belongs to, keyed by the same unit IDs as `coindb.lua` so both databases can be imported together.
+- **Faction Identifier** — Every identity tagged with every faction it belongs to, keyed by the same unit IDs as `egodb.lua` so both databases can be imported together.
 - **Bidirectional lookup** — Ask "what factions is this unit in?" or "who is in this faction?" with a single call.
 - **Multi-faction tagging** — Units that belong to more than one faction are supported.
 - **Parent and sub-faction support** — The Ring returns all Pointillist, Fauvist and Corporism members. Haute Couture returns both Le Noir and Le Rouge. Hongyuan returns the Lord of Hongyuan Hong Lu plus every Heishou Pack ID.
