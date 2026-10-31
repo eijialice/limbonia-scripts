@@ -31,7 +31,7 @@ Full documentation, API, notes and guides are on the GitBook:
 	- **Template** - Contains a template that fully recreates all of Valencina's skill effects, base power, etc to Thumb Rodion's skills, including skill text.
 	
 	Preview:
-	![Preview](https://imgur.com/a/vtDtxRl)
+	![Preview](https://i.imgur.com/LJvKnFm.gif)
 	
 	
 ---
