@@ -13,9 +13,10 @@ Full documentation, API, notes and guides are on the GitBook:
 ## Table of Contents
 
 - [Unit Scripts](#unit-scripts)
+	-[Thumb Rodion](#thumb-rodion)
 - [Mirror Dungeon](#mirror-dungeon)
 - [Libraries](#libraries)
-	- [coindb.lua](#coindb)
+	- [egodb.lua](#egodb)
 	- [faction.tagdb.lua](#factiondb)
 - [Utilities](#utilities)
 	- [keyword-logging.lua](#keyword-logging)
@@ -25,8 +26,14 @@ Full documentation, API, notes and guides are on the GitBook:
 ## Unit Scripts:
 *Scripts built around one identity or a specific team tied to that unit.*
 
-*No scripts yet.*
-
+1. ### Thumb Rodion
+	- **Added Mang behaviour similar to Valencina** — Adds 1 Mang to her Disposal and Sezionatura di Cervo Skill and Loses 10 SP at the end of the skill and gains +4 Base power when the conditions are met for Mang generation. 
+	- **Template** - Contains a template that fully recreates all of Valencina's skill effects, base power, etc to Thumb Rodion's skills, including skill text.
+	
+	Preview:
+	![Preview](https://media.discordapp.net/attachments/1540581692354592770/1565985915401150474/2026-10-31_15-01-46.gif?ex=6ae6e588&is=6ae59408&hm=9e1ed341a8990bf234df3651ece851504d66b0001049a23c08c447c14dcee454&=&width=716&height=403)
+	
+	
 ---
 
 ## Mirror Dungeon:
@@ -39,19 +46,16 @@ Full documentation, API, notes and guides are on the GitBook:
 ## Libraries:
 *Reusable scripts meant to be imported by other scripts. They do not do anything on their own and all they do is supply data or helper functions to your script/s.*
 
-1. ### coindb:
-	A complete database of every skill's coin count for every currently released Identity in Limbus Company, with lookup helpers included.
+1. ### egodb:
+	A  database for identity names, E.G.O. tiers and negative coin skills.
 
   **Features:**
 
-- **Coin Counting** — Attack, defense and E.G.O. coin counts for every current identity, plus 43 conditional skills with dynamic based coin counting for the reuse skills behaviours that I could somewhat replicate, and 12 toggleable re-use mechanic skills that could not be replicated within the current API; Currently with user-selectable base or max values.
+- **Identity name lookup** — `egodb.units[unitId]` returns the short identity name for logging or filtering. All 195 current identities covered. (updated before the new Heathcliff and Hong Lu ID's)
 - **E.G.O. tier classification** — Risk level name (ZAYIN / TETH / HE / WAW) or tier number (1 / 2 / 3 / 4), with exact, at-least and at-most comparison helpers.
 - **Bulk tier enumeration** — Return every E.G.O. at a tier, at a tier or higher, or at a tier or lower as a sorted array of skill IDs.
-- **Corroded E.G.O. detection** — Distinguish base from corroded, and positive-coin corroded from negative-coin corroded, via `isEgoCorroded`, `isCorrodedPositive`, `isCorrodedNegative` and `corrodedPolarity`.
-- **Negative coin skill detection** — There is currently no way to determine if a skill is a negative coin or not, so this lookup in `DB.negative` is the only way to tell a negative coin skill from a positive one at runtime.
-- **Identity name lookup** — `coindb.units[unitId]` Returns the identity name for logging or filtering.
-- **Category classification** — `coindb.category(u, s)` reports `"skills"`, `"defense"`, `"ego"`, `"negative"`, `"conditional"` or `"toggle"` for any skill.
-- **Direct table enumeration** — Walk every skill a unit has, every identity in the game, or every E.G.O. at a specific tier with plain Lua iteration.
+- **Corroded E.G.O. detection** — Distinguish base from corroded, and positive-coin corroded from negative-coin corroded, via `isEgoCorroded`, `isCorrodedPositive`, `isCorrodedNegative`, `corrodedPolarity` and `isBaseEgo`.
+- **Negative coin skill detection** — There is currently no way to determine if a skill is a negative coin or not in the API, so this lookup in `DB.negative` is the only way to tell a negative coin skill from a positive one at runtime.
 
 2. ### faction.tagdb:
 
