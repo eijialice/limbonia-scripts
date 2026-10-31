@@ -13,7 +13,7 @@ Full documentation, API, notes and guides are on the GitBook:
 ## Table of Contents
 
 - [Unit Scripts](#unit-scripts)
-	-[Thumb Rodion](#thumb-rodion)
+	- [Thumb Rodion](#thumb-rodion)
 - [Mirror Dungeon](#mirror-dungeon)
 - [Libraries](#libraries)
 	- [egodb.lua](#egodb)
