@@ -1,6 +1,6 @@
 # Limbonia Scripts
 
-*Made for: https://limbonia.ibello.cc/*
+*made for: https://limbonia.ibello.cc/*
 
 A collection of scripts for Limbonia, made by eiji67.
 
